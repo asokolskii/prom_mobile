@@ -88,9 +88,9 @@ header h1 {
 	font-weight:bold;
 	font-size: 0.93em;
 	text-align: center;
-}
-.phone-box * {
-	color: #fff;
+	appearance: normal;
+	-moz-appearance: normal; /* Firefox */
+	-webkit-appearance: normal; /* Safari and Chrome */
 }
 .phone-box img {
 	vertical-align: middle;
@@ -450,6 +450,9 @@ input[type="submit"] {
 	cursor: pointer;
 	background: #2da3ae;
 	padding-bottom: 3px;
+	appearance: normal;
+	-moz-appearance: normal; /* Firefox */
+	-webkit-appearance: normal; /* Safari and Chrome */
 }
 .contact-form  input[type="submit"]  {
 	background: #04489d;
