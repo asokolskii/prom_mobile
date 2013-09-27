@@ -29,9 +29,9 @@ fieldset {
 }
 button,
 input[type='submit'] {
-	appearance: normal;
-	-moz-appearance: normal; /* Firefox */
-	-webkit-appearance: normal; /* Safari and Chrome */
+	appearance: none;
+	-moz-appearance: none; /* Firefox */
+	-webkit-appearance: none; /* Safari and Chrome */
 }
 /* wrapper */
 .wrapper {
