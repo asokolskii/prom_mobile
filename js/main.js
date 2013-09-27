@@ -89,10 +89,12 @@ $(function(){
 					var y = e.touches[0].pageY;
 					var dx = startX - x;
 					if(Math.abs(dx) >= config.min_move_x) {
+						/*
 						if(startY != y && config.preventDefaultEvents) {
 							e.preventDefault();
 							return false;
 						}
+						*/
 						cancelTouch();
 						if(dx > 0) {
 							config.wipeLeft();
