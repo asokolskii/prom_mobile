@@ -15,7 +15,7 @@ img{
 }
 p {margin: 0 0 5px;}
 a {
-	color: #192c5f;
+	color: #04489d;
 	text-decoration: none;
 }
 textarea,
@@ -36,7 +36,7 @@ header {
 	width: 100%;
 }
 header h1 {
-	color: #192c5f;
+	color: #04489d;
 	font-weight: normal;
 	font-size: 1em;
 	margin: 0;
@@ -44,10 +44,9 @@ header h1 {
 }
 .menu {
 	border: solid #dcdcdc;
-	border-width: 1px 0;
+	border-width: 0 0 1px;
 	padding: 10px 22px;
 	overflow: hidden;
-	background: #f5f5f5;
 	margin-bottom: 5px;
 }
 .btn-menu {
@@ -55,26 +54,44 @@ header h1 {
 	height: 47px;
 	float: left;
 	margin-right: 1px;
-	background: #192c5f url("../images/btn-menu.gif") no-repeat 50% 50%;
+	background: #04489d;
 	cursor: pointer;
+	text-align: center;
 }
 .btn-search {
 	width: 47px;
 	height: 47px;
 	float: left;
 	margin-right: 1px;
-	background: #2da3ae url("../images/btn-search.png") no-repeat 50% 50%;
 	cursor: pointer;
+	font-size: 0;
+	text-align: center;
+	background: #2DA3AE;
+}
+.btn-menu i,
+.btn-search i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 47px;
+}
+.btn-search img {
+	vertical-align: middle;
 }
 .phone-box {
 	height: 47px;
 	line-height: 47px;
 	overflow: hidden;
 	padding-left: 38px;
-	background: #585858 url("../images/ico-phone.png") no-repeat 10px 50%;
+	background: #585858;
 	color: #fff;
 	font-weight:bold;
 	font-size: 0.93em;
+	text-align: center;
+}
+.phone-box img {
+	vertical-align: middle;
+	margin-right: 10px;
 }
 nav {
 	width: 100%;
@@ -89,7 +106,7 @@ nav li a {
 	color: #353535;
 	display: block;
 	border-bottom: 1px solid #dcdcdc;
-	padding: 0 60px 0 31px;
+	padding: 0 60px 0 22px;
 	background: url("../images/ico01.png") no-repeat 100% 50%;
 	text-decoration: none;
 }
@@ -154,7 +171,7 @@ nav li a:hover span {color: #fff;}
 	float: right;
 	width: 47px;
 	height: 47px;
-	background:#192c5f url("../images/ico08.png") no-repeat 50% 50%;
+	background:#04489d url("../images/ico08.png") no-repeat 50% 50%;
 	margin-left: 20px;
 }
 .product-list .text-holder {
@@ -311,14 +328,14 @@ p {margin: 0 0 15px;}
 	text-align: center;
 	color: #fff;
 	position: relative;
-	background: #192c5f;
+	background: #04489d;
 }
 .tabset .light-blue a {
 	background: #2da3ae;
 }
 .tabset li:hover a:after,
 .tabset li.active a:after {
-	top: 100%;
+	top: 39px;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -329,14 +346,14 @@ p {margin: 0 0 15px;}
 .tabset li:hover a:after,
 .tabset li.active a:after {
 	border-color: rgba(25, 44, 95, 0);
-	border-top-color: #192c5f;
+	border-top-color: #04489d;
 	border-width: 8px;
 	left: 50%;
 	margin-left: -8px;
 }
 .tabset .light-blue:hover a:after,
 .tabset .light-blue.active a:after {
-	top: 100%;
+	top: 39px;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -432,7 +449,7 @@ input[type="submit"] {
 	padding-bottom: 3px;
 }
 .contact-form  input[type="submit"]  {
-	background: #192c5f;
+	background: #04489d;
 }
 .order-form .total-price {
 	font-size: 1.286em;
