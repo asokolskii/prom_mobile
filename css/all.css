@@ -89,6 +89,9 @@ header h1 {
 	font-size: 0.93em;
 	text-align: center;
 }
+.phone-box * {
+	color: #fff;
+}
 .phone-box img {
 	vertical-align: middle;
 	margin-right: 10px;
