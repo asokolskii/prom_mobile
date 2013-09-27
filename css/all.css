@@ -82,7 +82,7 @@ header h1 {
 	height: 47px;
 	line-height: 47px;
 	overflow: hidden;
-	padding-left: 38px;
+	padding: 0 10px;
 	background: #585858;
 	color: #fff;
 	font-weight:bold;
@@ -315,11 +315,11 @@ p {margin: 0 0 15px;}
 .tabset li {
 	line-height: 40px;
 	float: left;
-	width: 48%;
+	width: 50%;
 	font-weight: bold;
 }
-.tabset li:first-child {
-	margin-right: 2%;
+.tabset li:first-child a {
+	margin-right: 1px;
 }
 .tabset li a {
 	padding: 0 5px;
