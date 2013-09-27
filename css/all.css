@@ -27,8 +27,9 @@ fieldset {
 	margin: 0;
 	display: block;
 }
-button,
-input[type='submit'] {
+a, select, input, button, textarea { 
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
 	appearance: none;
 	-moz-appearance: none; /* Firefox */
 	-webkit-appearance: none; /* Safari and Chrome */
