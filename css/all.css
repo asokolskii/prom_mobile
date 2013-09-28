@@ -21,11 +21,17 @@ a {
 textarea,
 form,
 fieldset {
-	font: 100% Arial, sans-serif; /*14px*/
+	font: 14px Arial, sans-serif; /*14px*/
 	border: 0;
 	padding: 0;
 	margin: 0;
 	display: block;
+}
+* {
+	-webkit-border-radius:0px; 
+	-moz-border-radius:0px; 
+	-khtml-border-radius:0px;
+	border-radius:0px;
 }
 a, select, input, button, textarea { 
 	outline: none;
@@ -96,7 +102,9 @@ header h1 {
 	font-size: 0.93em;
 	text-align: center;
 }
-.phone-box a {color: #fff;}
+.phone-box a {
+	color: #fff;
+}
 .phone-box img {
 	vertical-align: middle;
 	margin-right: 10px;
