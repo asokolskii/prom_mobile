@@ -122,8 +122,7 @@ nav li a {
 	color: #353535;
 	display: block;
 	border-bottom: 1px solid #dcdcdc;
-	padding: 0 60px 0 22px;
-	background: url("../images/ico01.png") no-repeat 100% 50%;
+	padding: 0 40px 0 22px;
 	text-decoration: none;
 }
 nav li a span {
@@ -132,19 +131,36 @@ nav li a span {
 nav li a:hover {
 	color: #fff;
 	border-color: #2da3ae;
-	background:#2da3ae url("../images/ico01-hover.png") no-repeat 100% 50%;
+	background:#2da3ae;
 }
 nav li a:hover span {color: #fff;}
+nav li a:hover .ico img:first-child {margin-top: -18px;}
+nav li a .ico {
+	float: right;
+	overflow: hidden;
+	height: 18px;
+	margin-top: 13px;
+}
+nav li a .ico img {
+	display: block;
+}
 .btn-back {
 	padding: 15px 20px 20px 44px;
 	border-bottom: 1px solid #dcdcdc;
 }
 .btn-back a {
 	display: block;
-	padding-left: 30px;
 	font-size: 1.3em;
 	color: #353535;
-	background: url("../images/ico07.png") no-repeat;
+}
+.btn-back a img {
+	float: left;
+	margin: 1px 12px 0 0;
+}
+.btn-back a .text-holder {
+	font-style: normal;
+	display: block;
+	overflow: hidden;
 }
 .btn-back a span {
 	color: #9b9b9b;
@@ -187,8 +203,19 @@ nav li a:hover span {color: #fff;}
 	float: right;
 	width: 47px;
 	height: 47px;
-	background:#04489d url("../images/ico08.png") no-repeat 50% 50%;
+	background:#04489d;
 	margin-left: 20px;
+	font-size: 1px;
+	text-align: center;
+}
+.btn-message i {
+	width: 0;
+	display: inline-block;
+	height: 47px;
+	vertical-align: middle;
+}
+.btn-message img {
+	vertical-align: middle;
 }
 .product-list .text-holder {
 	overflow: hidden;
