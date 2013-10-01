@@ -71,6 +71,12 @@ header h1 {
 	cursor: pointer;
 	text-align: center;
 }
+.btn-buy:hover,
+.btn-message:hover,
+.btn-search:hover,
+.btn-menu:hover {
+	opacity: 0.8;
+}
 .btn-search {
 	width: 47px;
 	height: 47px;
@@ -145,17 +151,30 @@ nav li a .ico img {
 	display: block;
 }
 .btn-back {
-	padding: 15px 20px 20px 44px;
+	padding: 5px 20px 10px;
 	border-bottom: 1px solid #dcdcdc;
 }
 .btn-back a {
 	display: block;
+	padding: 10px 0;
 	font-size: 1.3em;
 	color: #353535;
 }
-.btn-back a img {
+.btn-back .img {
+	height: 18px;
+	overflow: hidden;
 	float: left;
-	margin: 1px 12px 0 0;
+	margin: 1px 12px 0 24px;
+}
+.btn-back a:hover {
+	background: #2DA3AE;
+}
+.btn-back a:hover img:first-child {margin-top: -18px;}
+.btn-back a:hover span {
+	color: #fff;
+}
+.btn-back a img {
+	display: block;
 }
 .btn-back a .text-holder {
 	font-style: normal;
@@ -312,6 +331,7 @@ p {margin: 0 0 15px;}
 	padding: 20px 22px;
 	color: #2e2e2e;
 	border-bottom: 1px solid #DCDCDC;
+	margin-bottom: 9px;
 }
 .product-info .top-line {
 	width: 100%;
@@ -351,7 +371,7 @@ p {margin: 0 0 15px;}
 .tabset {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 -20px;
+	margin: 0;
 	width: 100%;
 	overflow: hidden;
 }
@@ -415,8 +435,11 @@ p {margin: 0 0 15px;}
 .recall {
 	padding: 15px 22px;
 }
+.tab-holder {
+	padding: 0 22px;
+}
 .tab {
-	padding:10px 22px 0;
+	padding:10px 0 0;
 	border-bottom: 1px solid #DCDCDC;
 	display: none;
 }
