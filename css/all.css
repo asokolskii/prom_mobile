@@ -264,6 +264,12 @@ form{display:inline;}
 	color:#232323;
 	padding:0 20px;
 }
+#nav li a:hover,
+#nav li.active a {
+	line-height: 44px;
+	text-decoration: none;
+	border-top: 2px solid #295578;
+}
 .subnav {
 	list-style:none;
 	margin:0;
@@ -435,7 +441,7 @@ h4 {
 	float:left;
 	padding-bottom:7px;
 }
-.submenu li a.active,
+.submenu li.ui-state-active a,
 .submenu li a:hover {
 	text-decoration:none;
 	margin:0 0 -2px;
@@ -781,7 +787,7 @@ p {margin:0 0 15px;}
 	vertical-align: middle;
 	margin:0 5px 1px 0;
 }
-.news-statistic a {
+.news-statistic span {
 	color:#a2a2a2;
 	margin-right:6px;
 	float:left;
@@ -947,9 +953,7 @@ p {margin:0 0 15px;}
 }
 .side-box li {
 	font-size:15px;
-	float:left;
 	background:#e1e1e1;
-	clear:left;
 	border-top:1px solid #d1d1d1;
 }
 .side-box li:first-child {
@@ -993,7 +997,6 @@ p {margin:0 0 15px;}
 	vertical-align: middle;
 }
 .side-box li .text {
-	
 	font-size:15px;
 	width:150px;
 	position: relative;

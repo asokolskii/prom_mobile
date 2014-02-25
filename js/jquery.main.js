@@ -12,7 +12,7 @@ $(document).ready(function(){
 		switcher: '.switcher>li',
 		direction:true
 	});
-	$('.side-box li').hover(
+	$('.side-box').hover(
 		function(){
 			$(this).find('.text').animate({marginLeft: '0'}, 500)
 		},
