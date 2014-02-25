@@ -1,0 +1,11 @@
+body{width:expression(document.documentElement.clientWidth < 950 ? "950px" : "auto");}
+.class #id{filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/image.png', sizingmethod='none,scale,crop'); 
+		background-position:-9999px -9999px;
+}
+#id { 
+	border-left: expression( (this===this.parentNode.childNodes[0]) ? "none" : "auto"); 
+	padding-left: expression( (this===this.parentNode.childNodes[0]) ? "0px" : "auto"); 
+}
+.class #id{
+	margin-top: expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0");
+}
